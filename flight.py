@@ -36,7 +36,7 @@ SPECIAL_NOTIFICATIONS_CONFIG = [
         "origin": "DEL",
         "destination": "HYD",
         "start_date": "2025-06-03",
-        "end_date": "2025-06-03",
+        "end_date": "2025-06-05",
         "chat_id_override": SECONDARY_TELEGRAM_CHAT_ID,
         "bot_token_override": SECONDARY_TELEGRAM_BOT_TOKEN
     },
@@ -44,8 +44,8 @@ SPECIAL_NOTIFICATIONS_CONFIG = [
         "route_label": "DEL_to_HYD",
         "origin": "DEL",
         "destination": "HYD",
-        "start_date": "2025-05-21",
-        "end_date": "2025-05-23",
+        "start_date": "2025-05-23",
+        "end_date": "2025-05-25",
         "chat_id_override": SECONDARY_TELEGRAM_CHAT_ID,
         "bot_token_override": SECONDARY_TELEGRAM_BOT_TOKEN
     },
