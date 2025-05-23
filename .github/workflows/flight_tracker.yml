@@ -4,7 +4,7 @@ name: Flight Price Tracker & Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/10 * * * *' # Runs every 30 minutes
+    - cron: '*/20 * * * *' # Runs every 30 minutes
   push:
     branches:
       - main # Or your default branch
