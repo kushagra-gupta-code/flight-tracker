@@ -1,0 +1,127 @@
+# Updated /.github/workflows/flight_tracker.yml
+name: Flight Price Tracker & Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *' # Runs every 30 minutes
+  push:
+    branches:
+      - main # Or your default branch
+
+jobs:
+  track-and-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    outputs:
+      json_files_changed: ${{ steps.check_json_modifications.outputs.changed }}
+      markdown_file_generated: ${{ steps.generate_readme_summary.outputs.generated_file_path }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run flight tracker script (updates JSONs & sends notifications)
+        id: run_flight_py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SECONDARY_TELEGRAM_BOT_TOKEN: ${{ secrets.SECONDARY_TELEGRAM_BOT_TOKEN }}
+          SECONDARY_TELEGRAM_CHAT_ID: ${{ secrets.SECONDARY_TELEGRAM_CHAT_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }} # Used by flight.py for link in notification
+        run: python flight.py
+
+      - name: Check if README.md exists
+        id: check_readme_exists
+        run: |
+          if [ -f "README.md" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "README.md does not exist. Will attempt to generate it."
+          fi
+
+      - name: Stage JSON modifications for commit and set output
+        id: check_json_modifications
+        run: |
+          JSON_FILES_TO_STAGE=$(find . -maxdepth 1 -name 'flight_tracker_*.json' -print)
+          changed_flag="false"
+          if [ -n "$JSON_FILES_TO_STAGE" ]; then
+            git add $JSON_FILES_TO_STAGE # Add all current JSONs
+            # Check if staged files are different from HEAD (last commit)
+            if ! git diff --staged --quiet --exit-code $JSON_FILES_TO_STAGE; then
+              changed_flag="true"
+              echo "JSON files have changes to be committed."
+            else
+              echo "No changes in JSON files to be committed (compared to HEAD)."
+              git reset HEAD $JSON_FILES_TO_STAGE # Unstage if identical to HEAD
+            fi
+          else
+            echo "No flight_tracker_*.json files found in workspace."
+          fi
+          echo "changed=$changed_flag" >> $GITHUB_OUTPUT
+
+      - name: Generate README.md Flight Summary
+        id: generate_readme_summary
+        if: steps.check_json_modifications.outputs.changed == 'true' || github.event_name == 'push' || steps.check_readme_exists.outputs.exists == 'false'
+        env:
+          MARKDOWN_FILENAME: "README.md"
+        run: |
+          JSON_FILES=$(find . -maxdepth 1 -name 'flight_tracker_*.json' -print)
+          if [ -z "$JSON_FILES" ]; then
+            echo "No JSON files found for README. Skipping."; echo "generated_file_path=" >> $GITHUB_OUTPUT;
+          else
+            if python generate_markdown.py "$MARKDOWN_FILENAME" $JSON_FILES; then
+              echo "generated_file_path=$MARKDOWN_FILENAME" >> $GITHUB_OUTPUT;
+            else
+              echo "README generation failed."; echo "generated_file_path=" >> $GITHUB_OUTPUT;
+            fi
+          fi
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          MARKDOWN_FILE_PATH="${{ steps.generate_readme_summary.outputs.generated_file_path }}"
+          # JSONs are already staged by 'check_json_modifications' if they changed from HEAD
+          if [ -n "$MARKDOWN_FILE_PATH" ] && [ -f "$MARKDOWN_FILE_PATH" ]; then
+            git add "$MARKDOWN_FILE_PATH"
+          fi
+          
+          if ! git diff --staged --quiet; then
+            commit_message="Update flight data and README.md summary - $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            json_changed_flag="${{ steps.check_json_modifications.outputs.changed }}" # from the step that stages based on HEAD
+            
+            readme_content_changed=false
+            if [ -n "$MARKDOWN_FILE_PATH" ] && [ -f "$MARKDOWN_FILE_PATH" ]; then
+                # Check if the README (now staged if it was generated/changed) is different from HEAD
+                if ! git diff --staged --quiet --exit-code "$MARKDOWN_FILE_PATH"; then
+                    readme_content_changed=true
+                fi
+            fi
+
+            if [[ "$json_changed_flag" == "false" && "$readme_content_changed" == "true" ]]; then
+               commit_message="Regenerate README.md flight summary - $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            elif [[ "$json_changed_flag" == "false" && "$readme_content_changed" == "false" ]]; then
+               echo "No actual content changes detected for commit after adding files."
+               exit 0 
+            fi
+            
+            echo "Committing changes with message: $commit_message"
+            git commit -m "$commit_message"
+            git push
+          else
+            echo "No changes to commit."
+          fi
