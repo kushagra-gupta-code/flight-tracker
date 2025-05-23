@@ -1,11 +1,11 @@
 # Flight Price Summary ✈️
 
-_{This README is automatically updated. Last generated: 2025-05-24 04:25:51 IST}_
+_{This README is automatically updated. Last generated: 2025-05-24 05:08:29 IST}_
 
 This page shows the latest tracked flight prices for configured routes. Prices are for one adult, economy, one-way, in INR. All timestamps are in IST.
 
 ## ✈️ Flight Prices: DEL ➔ BLR
-_Last data update for this route: 2025-05-24 04:25:50 IST_
+_Last data update for this route: 2025-05-24 05:08:28 IST_
 
 ### Current Overall Lowest Prices by Travel Date
 | Flight Date   | Day | Lowest Ever | Current Price | Dep → Arr (Details) | Airline | Duration | Stops | Found On (IST)    | Trend |
@@ -16,7 +16,7 @@ _Last data update for this route: 2025-05-24 04:25:50 IST_
 | 2025-05-21   | Wed | ₹4,431 | <span style='color:orange;'>Error</span> | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:45:49 IST |   |
 | 2025-05-22   | Thu | ₹4,483 | ₹5,694 | N/A → N/A | IndiGo | N/A | 1 | 2025-05-18 14:45:55 IST | 📉 (Low) |
 | 2025-05-23   | Fri | ₹5,000 | <span style='color:orange;'>Error</span> | N/A → N/A | Air India | N/A | 0 | 2025-05-18 14:46:02 IST |   |
-| 2025-05-24   | Sat | ₹5,008 | ₹8,738 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:46:08 IST | 📈 (High) |
+| 2025-05-24   | Sat | ₹5,008 | ₹8,113 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:46:08 IST | 📈 (High) |
 | 2025-05-25   | Sun | ₹4,798 | ₹8,949 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:46:13 IST | 📈 (High) |
 | 2025-05-26   | Mon | ₹5,176 | ₹6,789 | N/A → N/A+1 | SpiceJet | N/A | 0 | 2025-05-18 15:00:32 IST | 📊 (Typical) |
 | 2025-05-27   | Tue | ₹4,884 | ₹6,789 | N/A → N/A | IndiGo | N/A | 1 | 2025-05-18 14:46:26 IST | 📊 (Typical) |
@@ -29,7 +29,7 @@ _Last data update for this route: 2025-05-24 04:25:50 IST_
 | 2025-06-03   | Tue | ₹4,884 | ₹5,472 | N/A → N/A+1 | IndiGo | N/A | 1 | 2025-05-18 14:47:13 IST | 📉 (Low) |
 | 2025-06-04   | Wed | ₹5,326 | ₹6,216 | N/A → N/A | IndiGo | N/A | 1 | 2025-05-18 14:47:19 IST | 📊 (Typical) |
 | 2025-06-05   | Thu | ₹5,326 | ₹5,911 | N/A → N/A | IndiGo | N/A | 1 | 2025-05-18 14:47:26 IST | 📊 (Typical) |
-| 2025-06-06   | Fri | ₹3,944 | ₹5,694 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:47:32 IST | 📊 (Typical) |
+| 2025-06-06   | Fri | ₹3,944 | ₹6,216 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:47:32 IST | 📊 (Typical) |
 | 2025-06-07   | Sat | ₹4,884 | ₹6,216 | N/A → N/A | IndiGo | N/A | 1 | 2025-05-18 14:47:38 IST | 📊 (Typical) |
 | 2025-06-08   | Sun | ₹3,944 | ₹6,216 | N/A → N/A+1 | IndiGo | N/A | 0 | 2025-05-18 14:47:44 IST | 📊 (Typical) |
 | 2025-06-09   | Mon | ₹3,944 | ₹5,694 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:47:51 IST | 📊 (Typical) |
@@ -56,7 +56,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-05-21 | Wed | ₹5,694 | <span style='color:orange;'>Error</span> | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:02 IST |
 | 2025-05-22 | Thu | ₹5,694 | ₹5,694 | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:06 IST |
 | 2025-05-23 | Fri | ₹5,694 | <span style='color:orange;'>Error</span> | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 10:11:26 IST |
-| 2025-05-24 | Sat | ₹5,694 | ₹8,738 | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:16 IST |
+| 2025-05-24 | Sat | ₹5,694 | ₹8,113 | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:16 IST |
 | 2025-05-25 | Sun | ₹5,694 | ₹8,949 | 7:00 AM → 9:55 AM | IndiGo | 2 hr 55 min | 0 | 2025-05-20 10:44:23 IST |
 | 2025-05-26 | Mon | ₹5,661 | ₹6,789 | 9:45 PM → 12:40 AM+1 | IndiGo | 2 hr 55 min | 0 | 2025-05-21 15:08:18 IST |
 | 2025-05-27 | Tue | ₹5,250 | ₹6,789 | 8:15 PM → 1:30 AM+1 | IndiGo | 5 hr 15 min | 1 | 2025-05-19 16:14:05 IST |
@@ -69,7 +69,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-06-03 | Tue | ₹5,472 | ₹5,472 | 7:25 AM → 1:05 PM | IndiGo | 5 hr 40 min | 1 | 2025-05-23 16:27:19 IST |
 | 2025-06-04 | Wed | ₹5,694 | ₹6,216 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:36 IST |
 | 2025-06-05 | Thu | ₹5,694 | ₹5,911 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:44 IST |
-| 2025-06-06 | Fri | ₹5,694 | ₹5,694 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:52 IST |
+| 2025-06-06 | Fri | ₹5,694 | ₹6,216 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:52 IST |
 | 2025-06-07 | Sat | ₹5,413 | ₹6,216 | 5:05 AM → 10:45 AM | IndiGo | 5 hr 40 min | 1 | 2025-05-19 09:09:32 IST |
 | 2025-06-08 | Sun | ₹5,694 | ₹6,216 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:16:06 IST |
 | 2025-06-09 | Mon | ₹5,472 | ₹5,694 | 7:25 AM → 1:05 PM | IndiGo | 5 hr 40 min | 1 | 2025-05-21 18:36:02 IST |
@@ -96,7 +96,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-05-21 | Wed | ₹5,694 | <span style='color:orange;'>Error</span> | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:02 IST |
 | 2025-05-22 | Thu | ₹5,694 | ₹5,694 | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:06 IST |
 | 2025-05-23 | Fri | ₹5,694 | <span style='color:orange;'>Error</span> | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 10:11:26 IST |
-| 2025-05-24 | Sat | ₹5,694 | ₹8,738 | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:16 IST |
+| 2025-05-24 | Sat | ₹5,694 | ₹8,113 | 5:45 AM → 8:30 AM | IndiGo | 2 hr 45 min | 0 | 2025-05-20 09:47:16 IST |
 | 2025-05-25 | Sun | ₹5,694 | ₹8,949 | 7:00 AM → 9:55 AM | IndiGo | 2 hr 55 min | 0 | 2025-05-20 10:44:23 IST |
 | 2025-05-26 | Mon | ₹5,661 | ₹6,789 | 9:45 PM → 12:40 AM+1 | IndiGo | 2 hr 55 min | 0 | 2025-05-21 15:08:18 IST |
 | 2025-05-27 | Tue | ₹5,250 | ₹6,789 | 8:15 PM → 1:30 AM+1 | IndiGo | 5 hr 15 min | 1 | 2025-05-19 16:14:05 IST |
@@ -109,7 +109,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-06-03 | Tue | ₹5,472 | ₹5,472 | 7:25 AM → 1:05 PM | IndiGo | 5 hr 40 min | 1 | 2025-05-23 16:27:19 IST |
 | 2025-06-04 | Wed | ₹5,694 | ₹6,216 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:36 IST |
 | 2025-06-05 | Thu | ₹5,694 | ₹5,911 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:44 IST |
-| 2025-06-06 | Fri | ₹5,694 | ₹5,694 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:52 IST |
+| 2025-06-06 | Fri | ₹5,694 | ₹6,216 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:15:52 IST |
 | 2025-06-07 | Sat | ₹5,413 | ₹6,216 | 5:05 AM → 10:45 AM | IndiGo | 5 hr 40 min | 1 | 2025-05-19 09:09:32 IST |
 | 2025-06-08 | Sun | ₹5,694 | ₹6,216 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:16:06 IST |
 | 2025-06-09 | Mon | ₹5,472 | ₹5,694 | 7:25 AM → 1:05 PM | IndiGo | 5 hr 40 min | 1 | 2025-05-21 18:36:02 IST |
@@ -129,7 +129,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 
 ---
 ## ✈️ Flight Prices: DEL ➔ HYD
-_Last data update for this route: 2025-05-24 04:23:56 IST_
+_Last data update for this route: 2025-05-24 05:06:25 IST_
 
 ### Current Overall Lowest Prices by Travel Date
 | Flight Date   | Day | Lowest Ever | Current Price | Dep → Arr (Details) | Airline | Duration | Stops | Found On (IST)    | Trend |
@@ -158,7 +158,7 @@ _Last data update for this route: 2025-05-24 04:23:56 IST_
 | 2025-06-08   | Sun | ₹3,944 | ₹5,743 | N/A → N/A+1 | IndiGo | N/A | 0 | 2025-05-18 14:47:44 IST | 📈 (High) |
 | 2025-06-09   | Mon | ₹3,944 | ₹4,483 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:47:51 IST | 📊 (Typical) |
 | 2025-06-10   | Tue | ₹3,944 | ₹4,483 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:47:57 IST | 📊 (Typical) |
-| 2025-06-11   | Wed | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:48:04 IST | 📊 (Typical) |
+| 2025-06-11   | Wed | ₹3,944 | ₹4,100 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:48:04 IST | 📉 (Low) |
 | 2025-06-12   | Thu | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:48:10 IST | 📊 (Typical) |
 | 2025-06-13   | Fri | ₹3,944 | ₹4,483 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:48:15 IST | 📊 (Typical) |
 | 2025-06-14   | Sat | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:48:22 IST | 📊 (Typical) |
@@ -198,7 +198,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-06-08 | Sun | ₹5,326 | ₹5,743 | N/A → N/A | IndiGo | N/A | 1 | 2025-05-18 17:01:30 IST |
 | 2025-06-09 | Mon | ₹3,944 | ₹4,483 | N/A → N/A+1 | IndiGo | N/A | 0 | 2025-05-18 17:01:36 IST |
 | 2025-06-10 | Tue | ₹3,944 | ₹4,483 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:42 IST |
-| 2025-06-11 | Wed | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:48 IST |
+| 2025-06-11 | Wed | ₹3,944 | ₹4,100 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:48 IST |
 | 2025-06-12 | Thu | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:54 IST |
 | 2025-06-13 | Fri | ₹3,944 | ₹4,483 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:02:01 IST |
 | 2025-06-14 | Sat | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:02:06 IST |
@@ -238,7 +238,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-06-08 | Sun | ₹5,326 | ₹5,743 | N/A → N/A | IndiGo | N/A | 1 | 2025-05-18 17:01:30 IST |
 | 2025-06-09 | Mon | ₹3,944 | ₹4,483 | N/A → N/A+1 | IndiGo | N/A | 0 | 2025-05-18 17:01:36 IST |
 | 2025-06-10 | Tue | ₹3,944 | ₹4,483 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:42 IST |
-| 2025-06-11 | Wed | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:48 IST |
+| 2025-06-11 | Wed | ₹3,944 | ₹4,100 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:48 IST |
 | 2025-06-12 | Thu | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:01:54 IST |
 | 2025-06-13 | Fri | ₹3,944 | ₹4,483 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:02:01 IST |
 | 2025-06-14 | Sat | ₹3,944 | ₹4,884 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 17:02:06 IST |
@@ -253,7 +253,7 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 
 ---
 ## ✈️ Flight Prices: HYD ➔ DEL
-_Last data update for this route: 2025-05-24 04:22:00 IST_
+_Last data update for this route: 2025-05-24 05:04:21 IST_
 
 ### Current Overall Lowest Prices by Travel Date
 | Flight Date   | Day | Lowest Ever | Current Price | Dep → Arr (Details) | Airline | Duration | Stops | Found On (IST)    | Trend |
@@ -284,10 +284,10 @@ _Last data update for this route: 2025-05-24 04:22:00 IST_
 | 2025-06-10   | Tue | ₹3,849 | ₹3,849 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 09:33:32 IST | 📊 (Typical) |
 | 2025-06-11   | Wed | ₹3,781 | ₹3,781 | 9:00 AM → 11:30 AM | IndiGo | 2 hr 30 min | 0 | 2025-05-20 12:15:40 IST | 📉 (Low) |
 | 2025-06-12   | Thu | ₹3,781 | ₹3,849 | 9:30 PM → 12:05 AM+1 | IndiGo | 2 hr 35 min | 0 | 2025-05-20 12:15:46 IST | 📊 (Typical) |
-| 2025-06-13   | Fri | ₹3,849 | ₹4,544 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 10:22:39 IST | 📊 (Typical) |
+| 2025-06-13   | Fri | ₹3,849 | ₹4,086 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 10:22:39 IST | 📊 (Typical) |
 | 2025-06-14   | Sat | ₹3,849 | ₹4,544 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 09:33:49 IST | 📊 (Typical) |
 | 2025-06-15   | Sun | ₹3,849 | ₹3,960 | 12:00 PM → 2:25 PM | IndiGo | 2 hr 25 min | 0 | 2025-05-19 09:06:05 IST | 📊 (Typical) |
-| 2025-06-16   | Mon | ₹3,849 | ₹3,849 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:45:22 IST | 📊 (Typical) |
+| 2025-06-16   | Mon | ₹3,849 | ₹3,960 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:45:22 IST | 📊 (Typical) |
 | 2025-06-17   | Tue | ₹3,849 | ₹3,849 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 14:45:28 IST | 📊 (Typical) |
 | 2025-06-18   | Wed | ₹3,849 | ₹3,849 | 12:00 PM → 2:25 PM | IndiGo | 2 hr 25 min | 0 | 2025-05-20 06:16:20 IST | 📊 (Typical) |
 | 2025-06-19   | Thu | ₹3,849 | ₹3,849 | 7:45 AM → 10:05 AM | IndiGo | 2 hr 20 min | 0 | 2025-05-21 06:15:44 IST | 📊 (Typical) |
@@ -323,10 +323,10 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-06-10 | Tue | ₹3,849 | ₹3,849 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 09:33:32 IST |
 | 2025-06-11 | Wed | ₹3,781 | ₹3,781 | 9:00 AM → 11:30 AM | IndiGo | 2 hr 30 min | 0 | 2025-05-20 12:15:40 IST |
 | 2025-06-12 | Thu | ₹3,781 | ₹3,849 | 9:30 PM → 12:05 AM+1 | IndiGo | 2 hr 35 min | 0 | 2025-05-20 12:15:46 IST |
-| 2025-06-13 | Fri | ₹3,849 | ₹4,544 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 10:22:39 IST |
+| 2025-06-13 | Fri | ₹3,849 | ₹4,086 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 10:22:39 IST |
 | 2025-06-14 | Sat | ₹3,849 | ₹4,544 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 09:33:49 IST |
 | 2025-06-15 | Sun | ₹3,849 | ₹3,960 | 12:00 PM → 2:25 PM | IndiGo | 2 hr 25 min | 0 | 2025-05-19 09:06:05 IST |
-| 2025-06-16 | Mon | ₹3,849 | ₹3,849 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 16:59:20 IST |
+| 2025-06-16 | Mon | ₹3,849 | ₹3,960 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 16:59:20 IST |
 | 2025-06-17 | Tue | ₹3,849 | ₹3,849 | 7:45 AM → 10:05 AM | IndiGo | 2 hr 20 min | 0 | 2025-05-19 06:18:10 IST |
 | 2025-06-18 | Wed | ₹3,849 | ₹3,849 | 12:00 PM → 2:25 PM | IndiGo | 2 hr 25 min | 0 | 2025-05-20 06:16:20 IST |
 | 2025-06-19 | Thu | ₹3,849 | ₹3,849 | 7:45 AM → 10:05 AM | IndiGo | 2 hr 20 min | 0 | 2025-05-21 06:15:44 IST |
@@ -362,10 +362,10 @@ _For each travel date, shows the cheapest *positive* price seen if an observatio
 | 2025-06-10 | Tue | ₹3,849 | ₹3,849 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 09:33:32 IST |
 | 2025-06-11 | Wed | ₹3,781 | ₹3,781 | 9:00 AM → 11:30 AM | IndiGo | 2 hr 30 min | 0 | 2025-05-20 12:15:40 IST |
 | 2025-06-12 | Thu | ₹3,781 | ₹3,849 | 9:30 PM → 12:05 AM+1 | IndiGo | 2 hr 35 min | 0 | 2025-05-20 12:15:46 IST |
-| 2025-06-13 | Fri | ₹3,849 | ₹4,544 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 10:22:39 IST |
+| 2025-06-13 | Fri | ₹3,849 | ₹4,086 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 10:22:39 IST |
 | 2025-06-14 | Sat | ₹3,849 | ₹4,544 | 6:00 AM → 8:05 AM | IndiGo | 2 hr 5 min | 0 | 2025-05-19 09:33:49 IST |
 | 2025-06-15 | Sun | ₹3,849 | ₹3,960 | 12:00 PM → 2:25 PM | IndiGo | 2 hr 25 min | 0 | 2025-05-19 09:06:05 IST |
-| 2025-06-16 | Mon | ₹3,849 | ₹3,849 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 16:59:20 IST |
+| 2025-06-16 | Mon | ₹3,849 | ₹3,960 | N/A → N/A | IndiGo | N/A | 0 | 2025-05-18 16:59:20 IST |
 | 2025-06-17 | Tue | ₹3,849 | ₹3,849 | 7:45 AM → 10:05 AM | IndiGo | 2 hr 20 min | 0 | 2025-05-19 06:18:10 IST |
 | 2025-06-18 | Wed | ₹3,849 | ₹3,849 | 12:00 PM → 2:25 PM | IndiGo | 2 hr 25 min | 0 | 2025-05-20 06:16:20 IST |
 | 2025-06-19 | Thu | ₹3,849 | ₹3,849 | 7:45 AM → 10:05 AM | IndiGo | 2 hr 20 min | 0 | 2025-05-21 06:15:44 IST |
